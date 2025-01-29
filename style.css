@@ -4,8 +4,8 @@
 
 .row {
     display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
+    gap: 5px;
+    margin-bottom: 5px;
 }
 
 /*Add column styling/change styling
