@@ -12,6 +12,10 @@ for (let i = 0; i < 16; i++) {
         //column.style.height = "10px";
         //column.style.width = "10px";
         row.appendChild(column);
+        column.addEventListener("mouseover", (event) => {
+            console.log("hello");
+            column.style.backgroundColor = "blue";
+        });
     }
 }
 
