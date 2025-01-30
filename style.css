@@ -1,21 +1,26 @@
 #container {
-    margin: 0 auto;
+    width: 560px;
+    height: 560px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .row {
     display: flex;
     gap: 1.5px;
     margin-bottom: 1.5px;
+    width: 100%;
 }
 
-/*Add column styling/change styling
- and remove styling from js file*/
 .column {
-    height: 30px;
-    width: 30px;
+    box-sizing: border-box;
+    flex: 1;
     background-color: lightgray;
 }
 
 #button {
     margin-bottom: 20px;
 }
+
+
+/*strart with just getting alert working*/
