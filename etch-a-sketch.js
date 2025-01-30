@@ -16,7 +16,8 @@ function createGrid(size) {
             column.style.height = `{cellSize}px`;
             row.appendChild(column);
             column.addEventListener("mouseover", (event) => {
-                column.style.backgroundColor = "blue";
+                const randomColor = Math.floor(Math.random()*16777215).toString(16);
+                column.style.backgroundColor = "#" + randomColor;
             });
         }
     }
