@@ -1,1 +1,3 @@
-# Etch-a-Sketch
+This project aims to test skills in html, css/flexbox, and javascript. By the end of this project I will have demonstrated proficency in all of the aforementioned skills by creating an Etch-a-Sketch program.
+
+Having now completed the project, a aspect that stood out to me is how useful Javascript, specifically eventListeners can be. For example the eventListeners were incredibly useful in creating the drawing and reset features for the Etch-a-Sketch program.
