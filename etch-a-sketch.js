@@ -19,3 +19,8 @@ for (let i = 0; i < 16; i++) {
     }
 }
 
+const button = document.querySelector("button");
+button.addEventListener("click", (event) => {
+    prompt("Number of squares per side: ")
+});
+
